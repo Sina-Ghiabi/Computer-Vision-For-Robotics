@@ -16,7 +16,7 @@
 
 <br>
 
-> **Overview** — This project estimates an object's full 6D pose — its
+> **TL;DR** — This project estimates an object's full 6D pose — its
 > exact position and rotation in 3D space — from a photo, the kind of
 > perception a robot needs before it can pick something up. Given a color
 > image, a detector (**YOLOv8**) first locates the object. A neural
