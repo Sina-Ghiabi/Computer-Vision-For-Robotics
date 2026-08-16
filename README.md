@@ -2,7 +2,7 @@
 
 # 🎯 Computer Vision for Robotics — 6D Object Pose Estimation (Detection, Pose Regression & ICP Refinement)
 
-### RGB-D 6D object pose estimation on LINEMOD — dual-ResNet50 + FPN + attention, 6-D rotation head, and two-stage ICP refinement
+### Estimates an object's full 6D pose from a single camera image — its 3D position (x, y, z) plus its 3D rotation (roll, pitch, yaw), the exact perception a robot needs to pick it up. Combines a deep RGB-D network with point-cloud refinement to reach sub-centimeter accuracy.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)
