@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 Computer Vision for Robotics — 6D Object Pose Estimation (Detection, Pose Regression & ICP Refinement)
+# 🎯 Computer Vision for Robotics — 6D Object Pose Estimation (Detect, Estimate, Refine)
 
 ### Estimates an object's full 6D pose from a single camera image — its 3D position (x, y, z) plus its 3D rotation (roll, pitch, yaw), the exact perception a robot needs to pick it up. Combines a deep RGB-D network with point-cloud refinement to reach sub-centimeter accuracy.
 
