@@ -16,16 +16,19 @@
 
 <br>
 
-> **TL;DR** — A complete, Colab-first pipeline for **6D object pose
-> estimation** on the **LINEMOD** dataset. A dual-backbone RGB-D network
-> (**EnhancedRCVPose**) regresses each object's full 3D rotation +
-> translation from a fused RGB/depth feature representation, refined at
-> inference time by swapping in a depth-measured translation and running
-> two-stage ICP against the observed point cloud — alongside a **YOLOv8**
-> detector for the 2D bounding boxes. Six notebooks take you from raw
-> dataset zips to a trained, evaluated, visualized model, reaching
-> **~98.8% ADD success**, **~2.2 cm** translation RMSE, and **~8.5°**
-> rotation error across 13 LINEMOD classes.
+> **Overview** — This project estimates an object's full 6D pose — its
+> exact position and rotation in 3D space — from a photo, the kind of
+> perception a robot needs before it can pick something up. Given a color
+> image, a detector (**YOLOv8**) first locates the object. A neural
+> network then predicts its position and orientation from the color and
+> depth images together. Finally, that estimate is refined by comparing
+> it against the camera's own 3D scan of the scene, for extra precision.
+>
+> The whole pipeline is ready to run in Google Colab, split into six
+> notebooks that walk through everything from raw data to a trained,
+> tested, and visualized model. Result: **~98.8%** success rate, accurate
+> to within **~2.2 cm** in position and **~8.5°** in rotation, tested
+> across 13 different objects.
 
 <br>
 
