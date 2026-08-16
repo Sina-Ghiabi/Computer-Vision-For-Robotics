@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 6D Pose Estimation — EnhancedRCVPose + YOLOv8
+# 🎯 Computer Vision for Robotics — 6D Object Pose Estimation (Detection, Pose Regression & ICP Refinement)
 
 ### RGB-D 6D object pose estimation on LINEMOD — dual-ResNet50 + FPN + attention, 6-D rotation head, and two-stage ICP refinement
 
