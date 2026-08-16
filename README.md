@@ -435,6 +435,6 @@ All paths and shared settings live in `/content/config.json`, written by
 ---
 
 <div align="center">
-<sub>6D object pose estimation on LINEMOD — EnhancedRCVPose (dual-ResNet50 + FPN + attention) with YOLOv8 detection and ICP refinement.</sub>
+<sub>Full 6D object pose estimation (position + rotation) from RGB-D images, built for robotic grasping — YOLOv8 detection, a deep RGB-D pose network, and 3D-scan refinement, reaching ~98.8% success on the LINEMOD benchmark.</sub>
 </div>
 
